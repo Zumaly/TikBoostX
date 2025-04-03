@@ -18,7 +18,7 @@
 ```bash
 apt update -y && apt upgrade -y
 pkg install git python-pip
-git clone https://github.com/RozhakXD/TikBoostX.git
+git clone https://github.com/Zumaly/TikBoostX.git
 cd "TikBoostX"
 pip install -r requirements.txt
 python Run.py
