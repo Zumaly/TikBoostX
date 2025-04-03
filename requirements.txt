@@ -1,4 +1,5 @@
 requests-toolbelt
 requests
+pytz
 rich
 fake-useragent
