@@ -19,7 +19,7 @@ def Banner() -> None:
       | |  | | |/ /  _ < / _ \ / _ \/ __| __| > <  
       | |  | |   <| |_) | (_) | (_) \__ \ |_ / . \ 
       [bold white]|_|  |_|_|\_\____/ \___/ \___/|___/\__/_/ \_\
-             [underline red]𝚃𝚒𝚔𝚝𝚘𝚔 𝙵𝚛𝚎𝚎 𝚅𝚒𝚎𝚠𝚜 - 𝚋𝚢 𝚁𝚘𝚣𝚑𝚊𝚔""", style="bold bright_yellow", width=59
+             [underline red]𝚃𝚒𝚔𝚝𝚘𝚔 𝙵𝚛𝚎𝚎 𝚅𝚒𝚎𝚠𝚜 - 𝚋𝚢 Zumaly""", style="bold bright_yellow", width=59
         )
     )
     return None
@@ -126,7 +126,7 @@ def Operating_System(user_agent: str) -> str:
 
 def Feature() -> None:
     Banner()
-    Print(Panel("[bold white]Silakan Masukkan Link Postingan Tiktok, Pastikan Akun Tidak Dalam Keadaan Private. Contohnya:[bold red] https://ww\nw.tiktok.com/@rozhak.sch.id/video/7311522299532840198[bold white]", style="bold bright_yellow", width=59, title="[bold bright_yellow]>> [Tiktok Link] <<", subtitle="[bold bright_yellow]╭──────", subtitle_align="left"))
+    Print(Panel("[bold white]Silakan Masukkan Link Postingan Tiktok, Pastikan Akun Tidak Dalam Keadaan Private. Contohnya:[bold red] https://www.tiktok.com/@zuma.ly/video/7488391507389549831[bold white]", style="bold bright_yellow", width=59, title="[bold bright_yellow]>> [Tiktok Link] <<", subtitle="[bold bright_yellow]╭──────", subtitle_align="left"))
     video_urls = Console().input("[bold bright_yellow]   ╰─> ")
     if 'tiktok.com' in video_urls:
         Print(Panel("[bold white]Anda Bisa Menggunakan CTRL + C Jika Stuck Dan Gunakan CTRL + Z Untuk Berhenti!", style="bold bright_yellow", width=59, title="[bold bright_yellow]>> [Notes] <<"))
